@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "qq"
+version = "0.1.0"
+description = ""
+authors = ["ACGMN <ootopoo@vip.qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = "*"
+#chardet = "*"
+requests = "*"
+openpyxl = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "aliyun-source"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+default = true
